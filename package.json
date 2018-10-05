@@ -1,0 +1,27 @@
+{
+    "name": "raw-socket",
+    "version": "0.0.1",
+    "description": "raw socket in nodejs",
+    "main": "index.js",
+    "scripts": {
+        "build": "node-gyp rebuild",
+        "clean": "node-gyp clean",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hongxuanlee/node-raw-socket.git"
+    },
+    "author": "hongxuanlee",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/hongxuanlee/node-raw-socket/issues"
+    },
+    "homepage": "https://github.com/hongxuanlee/node-raw-socket#readme",
+    "devDependencies": {
+        "node-gyp": "^3.8.0"
+    },
+    "dependencies": {
+        "node-addon-api": "^1.5.0"
+    }
+}
